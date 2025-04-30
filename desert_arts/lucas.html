@@ -1,0 +1,46 @@
+<!-- event-detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desert Arts</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <img src="img/logo.png" alt="Desert Arts Logo" style="height: 80px;">
+        <div>
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="registration.html">Register</a>
+          <a href="account.html">My Account</a>
+
+        </div>
+    </nav>
+
+    <section class="section">
+      <img src="img/lucas.png" alt=" Logo" style="max-width:200px;">
+      <h2>Lost Signals</h2>
+      <p>Date: July 2 - Aug 18, 2025</p>
+      <p>Genre: Interactive Gallery</p>
+      <p>Step into a dynamic performance art studio and stage space designed to ignite imagination and foster expression. Nestled in a raw, industrial-inspired structure softened by warm lighting and acoustic textures, this versatile venue serves as both a creative incubator and a captivating performance arena. By day, it functions as a working studio—filled with movement, experimentation, and collaboration among dancers, musicians, and multidisciplinary artists. By night, it transforms into an intimate stage where boundaries between artist and audience dissolve.
+      </p>
+
+      <form onsubmit="handleSubmit(event)">
+        <h3>Register Now</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <button type="submit">Reserve Your Spot</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Desert Arts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

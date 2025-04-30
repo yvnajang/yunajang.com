@@ -1,0 +1,46 @@
+<!-- event-detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desert Arts</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <img src="img/logo.png" alt="Desert Arts Logo" style="height: 80px;">
+        <div>
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="registration.html">Register</a>
+          <a href="account.html">My Account</a>
+
+        </div>
+    </nav>
+
+    <section class="section">
+      <img src="img/calvin.png" alt=" Logo" style="max-width:200px;">
+      <h2>Lost Signals</h2>
+      <p>Date: July 8 - Sep 28, 2025</p>
+      <p>Genre: Installation Art</p>
+      <p>Venture into the surreal expanse of the Palm Springs desert and discover Lost Signals, an immersive light installation that blurs the line between technology and nature, isolation and connection. Set against the dramatic backdrop of sand dunes, starry skies, and wind-sculpted landscapes, this hauntingly beautiful experience invites visitors to explore a world where forgotten transmissions flicker to life through beams of color, sound, and movement.
+      </p>
+
+      <form onsubmit="handleSubmit(event)">
+        <h3>Register Now</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <button type="submit">Reserve Your Spot</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Desert Arts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

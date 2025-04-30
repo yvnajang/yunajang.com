@@ -1,0 +1,45 @@
+<!-- event-detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stargaze Opening Night</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <img src="img/logo.png" alt="Desert Arts Logo" style="height: 80px;">
+        <div>
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="registration.html">Register</a>
+          <a href="account.html">My Account</a>
+
+        </div>
+    </nav>
+
+    <section class="section">
+      <img src="images/stargaze-logo.png" alt=" Logo" style="max-width:200px;">
+      <h2>Desert Arts Opening Night</h2>
+      <p>Date: May 12, 2025</p>
+      <p>Location: Palm Springs Observatory</p>
+      <p>Experience a magical opening with live performances, immersive projections, and guided telescope sessions.</p>
+
+      <form onsubmit="handleSubmit(event)">
+        <h3>Register Now</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <button type="submit">Reserve Your Spot</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Desert Arts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

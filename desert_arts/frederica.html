@@ -1,0 +1,46 @@
+<!-- event-detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desert Arts</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <img src="img/logo.png" alt="Desert Arts Logo" style="height: 80px;">
+        <div>
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="registration.html">Register</a>
+          <a href="account.html">My Account</a>
+
+        </div>
+    </nav>
+
+    <section class="section">
+      <img src="img/frederica.png" alt=" Logo" style="max-width:200px;">
+      <h2>Designer & Artist Exchange</h2>
+      <p>Date: June 12 - Sep 8, 2025</p>
+      <p>Genre: Pop-up Store</p>
+      <p>Designer & Artist Exchange @Desert Art is a pop-up thrifting and exchange store for creatives to change materials, works, and ideas. With a focus on inclusivity, creative sharing, and community, the store will provide a community space for all creatives to share, recreate, and innovate.
+      </p>
+
+      <form onsubmit="handleSubmit(event)">
+        <h3>Register Now</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <button type="submit">Reserve Your Spot</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Desert Arts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

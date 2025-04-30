@@ -1,0 +1,46 @@
+<!-- event-detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desert Arts</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <img src="img/logo.png" alt="Desert Arts Logo" style="height: 80px;">
+        <div>
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="registration.html">Register</a>
+          <a href="account.html">My Account</a>
+
+        </div>
+    </nav>
+
+    <section class="section">
+      <img src="img/JustinKim.png" alt=" Logo" style="max-width:200px;">
+      <h2>Salvia Apiana</h2>
+      <p>Date: May 12 - Aug 18, 2025</p>
+      <p>Genre: Shopping & Dining Complex</p>
+      <p>Salvia Apiana is a Latin phrase meaning white sage, a fragrant plant native to the Palm Springs desert. This venue blends a curated perfume experience with scent-curated snacks and cocktails, which are all rooted in the scents and flavors of local aromatic plants and natural environment of Palm Springs.
+      </p>
+
+      <form onsubmit="handleSubmit(event)">
+        <h3>Register Now</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <button type="submit">Reserve Your Spot</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Desert Arts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

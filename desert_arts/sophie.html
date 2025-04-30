@@ -1,0 +1,46 @@
+<!-- event-detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desert Arts</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <img src="img/logo.png" alt="Desert Arts Logo" style="height: 80px;">
+        <div>
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="registration.html">Register</a>
+          <a href="account.html">My Account</a>
+
+        </div>
+    </nav>
+
+    <section class="section">
+      <img src="img/sophie.png" alt=" Logo" style="max-width:200px;">
+      <h2>Court Club</h2>
+      <p>Date: July 29 - Sep 13, 2025</p>
+      <p>Genre: Star Gazing & Sunrise, Sunset Watching</p>
+      <p>Step onto the courts of Court Club in Palm Springs after dusk, and you’ll find an immersive light experience unlike any other tennis event. As you wander between the clay courts and palm-fringed walkways, motion-sensitive sculptures bloom in vibrant hues, responding to every step, serve, and swing. Giant LED orbs hover above the net, slowly pulsing and shifting color as guests trigger hidden sensors in the court lines. Overhead, strands of twinkling lights trace the outline of the surrounding mountains, while ambient soundscapes ebb and flow in perfect harmony with the visual display. Whether you’re rallying under a canopy of electric blues and purples or pausing to admire a glowing installation in the clubhouse courtyard, the exhibit transforms the legendary Court Club into a living canvas of light, movement, and music—inviting visitors to engage with both sport and art in a stunning desert setting.
+      </p>
+
+      <form onsubmit="handleSubmit(event)">
+        <h3>Register Now</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <button type="submit">Reserve Your Spot</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Desert Arts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
